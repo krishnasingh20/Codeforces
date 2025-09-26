@@ -1,6 +1,6 @@
 import java.util.*;
  
-public class Main {
+public class The_Legend_of_Freya_the_Frog {
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
     int t = sc.nextInt();
