@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-public class Main {
+public class Array_merging {
   static FastReader in = new FastReader();
   static PrintWriter out = new PrintWriter(System.out);
 
