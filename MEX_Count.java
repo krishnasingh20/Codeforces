@@ -15,7 +15,7 @@ public class MEX_Count {
     sc.close();
   }
   public static String solve(int n, int[] count) {
-    int[] ans = new int[n+2];//in these i am counting answer for indivisual contribution
+    int[] ans = new int[n+2];//in these i am counting answer for indivisual contributions
     int extra = 0;
     int curr = 0;
     for(int i = 0; i <= n; i++) {
