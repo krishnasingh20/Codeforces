@@ -1,5 +1,5 @@
 import java.util.*;
-public class Wow_factor {
+public class Dorm_Water_Supply {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
