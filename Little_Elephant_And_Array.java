@@ -1,5 +1,4 @@
 import java.util.Arrays;
-import java.util.HashMap;
 import java.util.Scanner;
 
 public class Little_Elephant_And_Array {
