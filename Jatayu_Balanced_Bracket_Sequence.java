@@ -28,22 +28,16 @@ public class Main {
         Stack<Integer> st = new Stack<>();
         st.push(-1);
 
-        int[] parent = new int[2*n];
+        HashSet<Integer> component = new HashSet<>();
 
         for(int i = 0; i < 2*n; i++) {
             if(s.charAt(i) == '(') {
                 st.push(i);
             }
             else {
-                parent[st.pop()] = st.peek()+1;
-                parent[i] = st.peek()+1;
+                st.pop();
+                component.add(st.peek()+1);
             }
-        }
-
-        HashSet<Integer> component = new HashSet<>();
-
-        for(int i = 0; i < 2*n; i++) {
-            component.add(parent[i]);
         }
 
         return component.size();
